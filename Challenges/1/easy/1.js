@@ -21,7 +21,7 @@ rl.on("line", function(line){
     //check if done, else continue asking
     if (i == questions.length) {
         rl.close();
-        console.log("Hello "+answers[0]+", you are "+answers[1]+", and you like to be called "+answers[1]+".");
+        console.log("Hello "+answers[0]+", you are "+answers[1]+", and you like to be called "+answers[2]+".");
         process.exit();
     } else {
         rl.setPrompt(questions[i]+"> ");
