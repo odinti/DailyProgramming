@@ -12,7 +12,7 @@
 	];
 	$answers = [];
 	for ($i  = 0; $i < count($questions); $i++) {
-		echo "{$questions[$i]} ";
+		echo "$questions[$i] ";
 		$answers[$i] = trim(fgets(STDIN));
 	}
 	echo "Hello $answers[0], you are $answers[1], and you like to be called $answers[2].";
